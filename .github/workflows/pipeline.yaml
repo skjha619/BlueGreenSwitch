@@ -22,7 +22,7 @@ jobs:
              else
                kubectl get ingress -n blue -o yaml >temp.yaml
                sed -i 's/blue/green/g' temp.yaml
-               kubectl delete ingress/voting-app-ingress -n green
+               kubectl delete ingress/voting-app-ingress -n blue
                kubectl apply -f temp.yaml
 
              fi   
