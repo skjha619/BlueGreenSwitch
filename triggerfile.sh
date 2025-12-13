@@ -1,4 +1,2 @@
 dfedcfnf
-ss
-dddddd
 fdgvdzzz
